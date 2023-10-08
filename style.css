@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  background-image: url(img/mike-ko-tjod6u2RpiU-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-family: 'Young Serif', serif;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #a09c9c;
+  position: fixed;
+  z-index: 1;
+}
+nav h1 {
+  text-align: center;
+  line-height: 80px;
+}
+.banner .container h2 {
+  padding-bottom: 24px;
+  margin: 27px;
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.about .container h2 {
+  padding-bottom: 24px;
+  margin: 20px;
+  position: relative;
+}
+.about p {
+  margin-left: 20px;
+  width: 23%;
+}
+
+.about p:hover {
+  animation: animas 2s ease;
+}
+
+@keyframes animas {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+section h3 {
+  margin: 20px;
+}
+
+.hobby .container h3 {
+  padding: 50px 0;
+}
+
+.col-4 {
+  width: 23%;
+  padding: 5px;
+  text-align: center;
+  margin: 30px;
+}
+.col-4:hover {
+  animation: animas 2s ease;
+}
+.col-4 ol li a {
+  text-decoration: none;
+  color: inherit;
+}
+.col-4 ol li a:hover {
+  animation: animas 2s ease;
+}
+
+@keyframes animas {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+  .col-4 {
+    width: 50%;
+  }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+}
+
+section {
+  padding: 100px 0;
+}
+
+.poto img {
+  width: 100px;
+  border: 2px solid rgb(199, 195, 195);
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #ffffff;
+  display: block;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.poto img:hover {
+  animation: animasi 1s ease;
+}
+
+@keyframes animasi {
+  0% {
+    width: 100px;
+    height: 150px;
+  }
+
+  50% {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.banner h2,
+.banner p {
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  background-color: #a09c9c;
+  padding: 30px;
+  text-align: center;
+}
